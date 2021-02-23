@@ -37,17 +37,39 @@
 
    </span>
   
-   <span>I am am <br> spantag</span>
-   <img src="img/pexels-dan-galvani-sommavilla-4601871.jpg" alt="A picture of a cat" height="50" width="40">
+   <span>I am am <br> spantag</span> <br>
+   <img src="img/pexels-dan-galvani-sommavilla-4601871.jpg" alt="A picture of a cat" height="50" width="40"> <br>
 
    <!-- an "a" tag can be a link to a website or another page within the repo -->
 
-   <a href="https://google.com">google</a>
+   <a href="https://google.com">google</a> <br>
    <a href="about.html">about us</a>
 
    <blockquote cite="https://www.google.com">We are all in the gutter, but some of us are looking at the stars</blockquote>
 
    <p style="color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus velit consequatur distinctio alias ullam mollitia aspernatur! Placeat facilis modi eveniet quia atque repellat quod rerum quibusdam? Ducimus esse magnam eius.</p>
+
+   <h3>HTML Forms</h3>
+
+   <form action="">
+
+        <!-- "Name" is similar to "id" but also helps with server side processing -->
+
+        <label for="Username">Username goes bellow</label> <br>
+        <input type="text" name="Username" id="Username" placeholder="Username here" > <br><br>
+        <input type="text" name="This is a text box" id="text" placeholder="This is a text box"> <br><br>
+        <label for="Email">Put ya email here</label> <br>
+        <input type="email" name="Email" id="Email" placeholder="Email" name="Email">
+        <br><br>
+        <label for="Password">Password</label>
+        <br>
+        <input type="password" name="Password" id="Password" placeholder="type your new password">
+        
+   </form>
+
+   <?php
+   echo "Hi, I'm a PHP script!";
+?>
 
 </body>
 </html>
