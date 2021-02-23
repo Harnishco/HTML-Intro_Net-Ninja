@@ -10,7 +10,7 @@
 
    <div>
     <p>Hello, <strong>ninjas</strong></p>
-    <p>My frist <em>website</em> </p>
+    <p>This is the heading for HTML-forms branch</p>
    </div> 
 
    <div>
@@ -56,20 +56,33 @@
         <!-- "Name" is similar to "id" but also helps with server side processing -->
 
         <label for="Username">Username goes bellow</label> <br>
-        <input type="text" name="Username" id="Username" placeholder="Username here" > <br><br>
+        <input type="text" name="Username" id="Username" placeholder="Username here" name="Username" > <br><br>
         <input type="text" name="This is a text box" id="text" placeholder="This is a text box"> <br><br>
         <label for="Email">Put ya email here</label> <br>
         <input type="email" name="Email" id="Email" placeholder="Email" name="Email">
         <br><br>
         <label for="Password">Password</label>
         <br>
-        <input type="password" name="Password" id="Password" placeholder="type your new password">
+        <input type="password" name="Password" id="Password" placeholder="type your new password" name="Password" > 
+
         
    </form>
 
-   <?php
-   echo "Hi, I'm a PHP script!";
-?>
+   <form action="">
+       <input type="radio" name="Gender" value="male" id="option male">
+       <label for="option male">Male</label><br>
+       <input type="radio" name="Gender" value="female" id="option female">
+       <label for="option female">Female</label><br>
+       <input type="radio" name="Gender" value="other" id="option other">
+       <label for="option other">Other</label><br>
+
+       <!-- copy and paste embed code like below -->
+
+       <iframe width="350" height="200" src="https://www.youtube.com/embed/YwbIeMlxZAU?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+   </form>
+
+   
 
 </body>
 </html>
