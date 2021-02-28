@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <!-- link tag to reference styles.css rules -->
+    
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MarioClub</title>
+    
 </head>
 <body>
 
    <div>
+<<<<<<< HEAD
+    <p>Hello, <strong>ninjas</strong> This is heading 2.0</p>
+    <p>This is the heading for HTML-forms branch</p>
+=======
     <p>this heading should be on main branch only</p>
     <p>Hello, <strong>ninjas</strong> heading 2.0 for main branch</p>
     <p>My frist <em>website</em> </p>
+>>>>>>> 116bd6e8be9123e810109053673f308aa3c69baf
    </div> 
 
    <div>
@@ -39,7 +49,7 @@
    </span>
   
    <span>I am am <br> spantag</span> <br>
-   <img src="img/pexels-dan-galvani-sommavilla-4601871.jpg" alt="A picture of a cat" height="50" width="40"> <br>
+   <img src="img/pexels-dan-galvani-sommavilla-4601871.jpg" alt="A picture of a cat" height="200" width="150"> <br>
 
    <!-- an "a" tag can be a link to a website or another page within the repo -->
 
@@ -57,20 +67,80 @@
         <!-- "Name" is similar to "id" but also helps with server side processing -->
 
         <label for="Username">Username goes bellow</label> <br>
-        <input type="text" name="Username" id="Username" placeholder="Username here" > <br><br>
+        <input type="text" name="Username" id="Username" placeholder="Username here" name="Username" > <br><br>
         <input type="text" name="This is a text box" id="text" placeholder="This is a text box"> <br><br>
         <label for="Email">Put ya email here</label> <br>
         <input type="email" name="Email" id="Email" placeholder="Email" name="Email">
         <br><br>
         <label for="Password">Password</label>
         <br>
-        <input type="password" name="Password" id="Password" placeholder="type your new password">
+        <input type="password" name="Password" id="Password" placeholder="type your new password" name="Password" > 
+
         
    </form>
 
-   <?php
-   echo "Hi, I'm a PHP script!";
-?>
+   <form action="">
+       <input type="radio" name="Gender" value="male" id="option male">
+       <label for="option male">Male</label><br>
+       <input type="radio" name="Gender" value="female" id="option female">
+       <label for="option female">Female</label><br>
+       <input type="radio" name="Gender" value="other" id="option other">
+       <label for="option other">Other</label><br>
+
+       <!-- copy and paste embed code like below -->
+       {
+    }
+       <iframe width="350" height="200" src="https://www.youtube.com/embed/YwbIeMlxZAU?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+       <br><br>
+
+       <label for="question">Security Question</label>
+       <select name="question" id="question">
+           <option value="q1">What is your cats name</option>
+           <option value="q2">What is your dogs name</option>
+           <option value="q3">What is your friends name</option>
+       </select>
+
+       <br><br>
+       
+       <label for="answer">Security question answer</label>
+       <input type="text" name="answer" id="answer"> 
+
+       <br><br>
+                    <!-- placeholder creates a temp text -->
+       <label for="bio">Biography box</label> <br>
+       <textarea name="Bio" id="bio" cols="30" rows="10" placeholder="Enter Bio"></textarea>
+
+       <br><br>
+
+       <input type="submit" value="submit the form">
+
+       <br><br><br><br>
+
+   </form>
+
+   <footer>Thank you for visiting my website</footer>
+
+        <br><br><br><br>
+
+   
+        <!-- h2 is not an inline element -->
+    <h2>inline elements</h2> 
+
+    <span>span tag</span>
+    <em>em tag</em>
+    <a href="">ancor tag</a>
+    <span>span tag</span>
+
+    <h2>block level elements</h2>
+    <div>div tag</div>
+    <div>another div tag</div>
+    <h3>h3 tag</h3>
+    <p>paragraph tag</p>
+    <ul>
+        <li>li tag</li>
+        <li>another li tag</li>
+    </ul>
 
 </body>
 </html>
