@@ -29,5 +29,15 @@ li {
 }
 
 span {
-  display: block;
+  /* display: block;  */
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+}
+
+div {
+  /* display: inline; make sure you put in the ";" at the end of lines */
+  border: 2px solid crimson;
+  margin: 20px;
+  padding: 20px;
 }
