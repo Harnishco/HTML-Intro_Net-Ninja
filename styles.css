@@ -66,3 +66,13 @@ a[href="https://google.com"]
 }
 
 /* "$" means anything that ends with whats after that for example a[href$=".pdf"] to select pdf files */
+
+/* Inherit means to take on attributes that aren't normally passed from the parent */
+
+/* div {
+  border: dotted black;
+}
+
+p {
+  border: inherit;
+} */
