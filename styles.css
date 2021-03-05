@@ -41,3 +41,28 @@ div {
   margin: 20px;
   padding: 20px;
 }
+
+p.error {
+  color: red;
+  font-style: italic;
+}
+
+.success {
+  color: rgb(80, 7, 68);
+  font-family: sans-serif;
+}
+
+p.success.feedback {
+  border: dashed purple;
+}
+
+/* control families like this div p a {   } */
+
+a[href="https://google.com"]
+{
+  background-color: lightcoral;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* "$" means anything that ends with whats after that for example a[href$=".pdf"] to select pdf files */
